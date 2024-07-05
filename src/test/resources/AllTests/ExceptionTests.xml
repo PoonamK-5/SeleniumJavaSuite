@@ -1,0 +1,11 @@
+<suite name="ExceptionTests">	
+	<test name="ExceptionTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.ExceptionTests">	
+				<methods>
+					<include name="staleElementReferenceExceptionTest"></include>
+				</methods>			
+			</class>
+		</classes>		
+	</test>
+</suite>

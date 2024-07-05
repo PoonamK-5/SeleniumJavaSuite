@@ -1,0 +1,13 @@
+<suite name="Debug" verbose="1">
+  
+   <test name="PositiveTests">
+	<parameter name="browser"  value="chrome"/>
+    <classes>
+       <class name="com.herokuapp.theinternet.loginTests">
+		<methods>
+			<include name="positiveLoginTest"></include>
+		</methods>
+		</class>
+    </classes>
+  </test>
+  </suite>
